@@ -1,0 +1,45 @@
+body {
+    background-color: #0f172a;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    background-color: #1e293b;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.493);
+    text-align: center;
+    max-width: 400px;
+    width: 90%;
+}
+
+#consejo {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #e2e8f0;
+    margin: 20px 0;
+    min-height: 60px; /* Para evitar que la tarjeta salte al cambiar de texto */
+}
+
+button {
+    background-color: #38bdf8;
+    color: #0f172a;
+    border: none;
+    padding: 12px 24px;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s, background 0.2s;
+}
+
+button:hover {
+    background-color: #7dd3fc;
+    transform: scale(1.05);
+}
